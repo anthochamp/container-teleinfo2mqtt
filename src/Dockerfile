@@ -1,4 +1,4 @@
-FROM fmartinou/teleinfo2mqtt:9.0.4@sha256:2b3bdb9b00b2065ae4d73ffb04c4053de22545eeaaba46bc5b0c8b09fcdcb1dd
+FROM fmartinou/teleinfo2mqtt:9.0.5@sha256:18c3224bb57e239ae46b065194b5a0aca1054e7929bb18803c6bc9da8213bccb
 
 COPY --chmod=775 /rootfs/docker-entrypoint.sh /
 
