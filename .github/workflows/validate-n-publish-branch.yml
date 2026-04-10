@@ -29,6 +29,7 @@ jobs:
       dockerfile-dir: src
       dhub-readme-file: ./CONTAINER.md
       container-image-name: ${{ needs.pre-publish.outputs.container-image-name }}
+    secrets:
       dhub-username: ${{ secrets.DHUB_USERNAME }}
       dhub-password: ${{ secrets.DHUB_PASSWORD }}
       ghcr-username: ${{ github.repository_owner }}
