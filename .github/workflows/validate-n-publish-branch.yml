@@ -28,6 +28,9 @@ jobs:
     with:
       dockerfile-dir: src
       dhub-readme-file: ./CONTAINER.md
+      version: ${{ needs.get-version.outputs.version }}
+      alt-version: ${{ needs.pre-publish.outputs.teleinfo2mqtt-version }}
+      alt-version-prefix: teleinfo2mqtt
       container-image-name: ${{ needs.pre-publish.outputs.container-image-name }}
     secrets:
       dhub-username: ${{ secrets.DHUB_USERNAME }}
