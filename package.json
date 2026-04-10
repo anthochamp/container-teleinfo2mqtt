@@ -1,5 +1,7 @@
 {
 	"private": true,
+	"description": "teleinfo2mqtt container publishing Linky smart meter data to an MQTT broker",
+	"author": "Anthony Champagne <dev@anthonychampagne.fr>",
 	"scripts": {
 		"test": "node --import=tsx --test-concurrency 1 --test tests/**/*.test.*",
 		"tsc:check": "tsc -noEmit -p ./tsconfig.json",

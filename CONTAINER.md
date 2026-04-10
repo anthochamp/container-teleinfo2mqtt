@@ -15,9 +15,16 @@ See [README.md](README.md) for full documentation and configuration reference.
 
 - `x.y-teleinfo2mqttA.B.C`: Latest patch of `x.y` with teleinfo2mqtt `A.B.C`.
 - `x-teleinfo2mqttA.B.C`: Latest minor+patch of `x` with teleinfo2mqtt `A.B.C`.
+- `x.y.z-teleinfo2mqttA.B`: Version `x.y.z` with latest patch of teleinfo2mqtt `A.B` (only latest container version updated).
+- `x.y-teleinfo2mqttA.B`: Latest patch of `x.y` with latest patch of teleinfo2mqtt `A.B`.
+- `x-teleinfo2mqttA.B`: Latest minor+patch of `x` with latest patch of teleinfo2mqtt `A.B`.
+- `x.y.z-teleinfo2mqttA`: Version `x.y.z` with latest minor+patch of teleinfo2mqtt `A` (only latest container version updated).
+- `x.y-teleinfo2mqttA`: Latest patch of `x.y` with latest minor+patch of teleinfo2mqtt `A`.
+- `x-teleinfo2mqttA`: Latest minor+patch of `x` with latest minor+patch of teleinfo2mqtt `A`.
 - `x.y.z`: Version `x.y.z` with latest teleinfo2mqtt (only latest container version updated).
-- `x.y`: Latest patch of `x.y` with latest teleinfo2mqtt (only latest container major.minor updated).
-- `x`: Latest minor+patch of `x` with latest teleinfo2mqtt (only latest container major updated).
+- `x.y`: Latest patch of `x.y` with latest teleinfo2mqtt.
+- `x`: Latest minor+patch of `x` with latest teleinfo2mqtt.
+- `teleinfo2mqttA.B.C`: Latest container with teleinfo2mqtt `A.B.C`.
 - `teleinfo2mqttA.B`: Latest container with latest patch of teleinfo2mqtt `A.B`.
 - `teleinfo2mqttA`: Latest container with latest minor+patch of teleinfo2mqtt `A`.
 - `latest`: Latest `x.y.z-teleinfo2mqttA.B.C` tag.
